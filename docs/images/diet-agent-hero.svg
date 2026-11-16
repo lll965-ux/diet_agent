@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="460" viewBox="0 0 1440 460" role="img" aria-labelledby="title desc">
+  <title id="title">Diet Agent 项目横幅</title>
+  <desc id="desc">多 Agent 饮食推荐系统，支持自然语言理解、主动澄清、规则重排、风险守卫和全链路追踪。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b2f26"/>
+      <stop offset="0.52" stop-color="#12533f"/>
+      <stop offset="1" stop-color="#238765"/>
+    </linearGradient>
+    <linearGradient id="bowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c9f3e2"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d9ffef"/>
+      <stop offset="1" stop-color="#72ddb4"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#041a14" flood-opacity=".28"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <rect width="1440" height="460" rx="38" fill="url(#bg)"/>
+  <circle cx="1290" cy="50" r="170" fill="#8ce7c1" opacity=".11" filter="url(#soft)"/>
+  <circle cx="1090" cy="470" r="230" fill="#64d7a7" opacity=".10" filter="url(#soft)"/>
+  <path d="M0 354C190 305 318 405 510 362C667 327 749 252 909 282C1089 315 1220 415 1440 337V460H0Z" fill="#9be6c8" opacity=".07"/>
+
+  <g transform="translate(54 42)">
+    <rect width="408" height="376" rx="34" fill="#ffffff" opacity=".08" stroke="#c9f3e2" stroke-opacity=".20"/>
+    <circle cx="204" cy="184" r="133" fill="#d9ffef" opacity=".09"/>
+
+    <g stroke="#a8f0d1" stroke-width="3" stroke-linecap="round" opacity=".72">
+      <path d="M84 95L146 132"/>
+      <path d="M324 94L265 132"/>
+      <path d="M72 258L140 229"/>
+      <path d="M335 264L268 230"/>
+      <path d="M205 58L205 112"/>
+    </g>
+    <g fill="#d8ffef" stroke="#2ea77a" stroke-width="4">
+      <circle cx="82" cy="94" r="13"/>
+      <circle cx="326" cy="93" r="13"/>
+      <circle cx="70" cy="260" r="13"/>
+      <circle cx="338" cy="265" r="13"/>
+      <circle cx="205" cy="56" r="13"/>
+    </g>
+
+    <g filter="url(#shadow)">
+      <ellipse cx="204" cy="191" rx="116" ry="38" fill="#effff8"/>
+      <path d="M88 190C95 281 138 323 204 323C270 323 313 281 320 190C288 212 248 222 204 222C160 222 120 212 88 190Z" fill="url(#bowl)"/>
+      <path d="M116 205C139 217 169 223 204 223C239 223 269 217 292 205" fill="none" stroke="#92ddbf" stroke-width="5" stroke-linecap="round"/>
+    </g>
+
+    <g>
+      <path d="M142 184C114 145 137 120 178 146C179 173 165 184 142 184Z" fill="url(#leaf)"/>
+      <path d="M267 184C295 145 272 120 231 146C230 173 244 184 267 184Z" fill="url(#leaf)"/>
+      <path d="M174 176C166 127 196 109 219 151C211 176 195 184 174 176Z" fill="#56c895"/>
+      <circle cx="215" cy="185" r="25" fill="#f7cc6b"/>
+      <circle cx="168" cy="192" r="19" fill="#ff8d77"/>
+      <circle cx="252" cy="195" r="18" fill="#8bd76d"/>
+      <path d="M206 131C222 102 251 105 255 139C235 151 218 147 206 131Z" fill="#b7f2d8"/>
+    </g>
+
+    <rect x="113" y="342" width="182" height="7" rx="3.5" fill="#d9ffef" opacity=".45"/>
+  </g>
+
+  <g transform="translate(530 70)" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei',Arial,sans-serif">
+    <g transform="translate(0 0)">
+      <rect width="156" height="36" rx="18" fill="#d9ffef" opacity=".15" stroke="#d9ffef" stroke-opacity=".30"/>
+      <circle cx="21" cy="18" r="5" fill="#85e4bc"/>
+      <text x="36" y="24" fill="#dcfff1" font-size="15" font-weight="700" letter-spacing="1.2">MULTI-AGENT</text>
+    </g>
+
+    <text x="0" y="114" fill="#ffffff" font-size="74" font-weight="800" letter-spacing="-2">DIET AGENT</text>
+    <text x="2" y="166" fill="#c9f3e2" font-size="31" font-weight="700">一个会理解、会追问、会推荐、会避险的饮食助手</text>
+    <text x="2" y="215" fill="#e7fff5" opacity=".76" font-size="20">AgentScope × Qwen × Spring Boot × MySQL</text>
+
+    <g transform="translate(0 258)" font-size="17" font-weight="650">
+      <g>
+        <rect width="166" height="48" rx="24" fill="#ffffff" opacity=".11" stroke="#ffffff" stroke-opacity=".22"/>
+        <circle cx="25" cy="24" r="8" fill="#77ddb4"/>
+        <text x="44" y="30" fill="#f1fff9">自然语言理解</text>
+      </g>
+      <g transform="translate(180)">
+        <rect width="146" height="48" rx="24" fill="#ffffff" opacity=".11" stroke="#ffffff" stroke-opacity=".22"/>
+        <circle cx="25" cy="24" r="8" fill="#f5ce69"/>
+        <text x="44" y="30" fill="#f1fff9">主动澄清</text>
+      </g>
+      <g transform="translate(340)">
+        <rect width="146" height="48" rx="24" fill="#ffffff" opacity=".11" stroke="#ffffff" stroke-opacity=".22"/>
+        <circle cx="25" cy="24" r="8" fill="#a6e87f"/>
+        <text x="44" y="30" fill="#f1fff9">规则重排</text>
+      </g>
+      <g transform="translate(500)">
+        <rect width="146" height="48" rx="24" fill="#ffffff" opacity=".11" stroke="#ffffff" stroke-opacity=".22"/>
+        <circle cx="25" cy="24" r="8" fill="#ff9c86"/>
+        <text x="44" y="30" fill="#f1fff9">风险守卫</text>
+      </g>
+    </g>
+
+    <g transform="translate(0 328)">
+      <path d="M0 0H730" stroke="#d9ffef" stroke-opacity=".20"/>
+      <text x="0" y="33" fill="#c9f3e2" opacity=".82" font-size="17">可控决策 · 双数据源 · 多轮状态 · 完整 Trace · 人工评估</text>
+    </g>
+  </g>
+</svg>
